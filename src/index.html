@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Assigment 3</title>
+  </head>
+  <body>
+    <header
+      class="bg-transparent absolute top-0 left-0 w-full flex items-center z-10"
+    >
+      <nav>
+        <div class="flex items-center justify-between relative">
+          <div class="px-5">
+            <a href="#home" class="font-bold text-red-400 block py-5">mhelmi</a>
+          </div>
+          <div class="flex items-center justify-between relative">
+            <ul>
+              <li>
+                <a href="#home" class="font-semibold block pr-4">Home</a>
+              </li>
+            </ul>
+            <ul>
+              <li>
+                <a href="#about" class="font-semibold block pr-4">About</a>
+              </li>
+            </ul>
+            <ul>
+              <li>
+                <a href="#contact" class="font-semibold block">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!--Home Section-->
+    <section id="home" class="pt-20 pb-5 m-auto">
+      <div class="container">
+        <div class="flex flex-wrap">
+          <div class="w-full self-center px-5 lg:w-1/2">
+            <h1 class="text-base text-gray-800 font-semibold">
+              Halo Semua, Saya
+              <span class="block text-3xl mt-1 text-red-400"
+                >Muhammad Helmi</span
+              >
+            </h1>
+            <h2 class="font-medium text-slate-600 text-lg mb-3">Mahasiswa</h2>
+            <p class="font-medium text-slate-400 mb-8 leading-relaxed">
+              Saya sedang belajar membuat website portfolio menggunakan
+              tailwindcss untuk menyelesaikan tugas dari ruangguru camp
+            </p>
+            <a
+              href="#"
+              class="text-base text-semibold text-white bg-red-400 py-3 px-5 rounded-full hover:shadow-xl hover:opacity-75"
+              >Hubungi Saya</a
+            >
+          </div>
+          <div class="w-full self-end px-5 lg:w-1/2">
+            <div class="relative mt-8 lg:mt-0 lg:right-0">
+              <img
+                width="300"
+                height="300"
+                src="img/helmi.png"
+                alt="Muhammad Helmi"
+                class="max-w-full mx-auto"
+              />
+              <span class="absolute -bottom-10 -z-10 left-1/2 -translate-x-1/2">
+                <svg
+                  width="350"
+                  height="350"
+                  viewBox="0 0 200 200"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    fill="#F87171"
+                    d="M37.6,-52.8C49.5,-43,60.4,-33.1,68.7,-19.5C77,-5.9,82.7,11.4,78.6,26.1C74.6,40.8,60.9,52.8,46.1,58.9C31.4,65,15.7,65.2,-1.6,67.4C-18.9,69.6,-37.8,73.9,-53.4,68C-68.9,62.2,-81.1,46.2,-87.4,28.1C-93.7,9.9,-94.2,-10.4,-87,-27C-79.9,-43.5,-65,-56.2,-49.2,-64.7C-33.4,-73.1,-16.7,-77.3,-1.9,-74.6C12.8,-72,25.6,-62.5,37.6,-52.8Z"
+                    transform="translate(100 100) scale(1.0)"
+                  />
+                </svg>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--Home Section End-->
+    <!--About Section-->
+    <section id="about" class="pt-6 m-auto bg-red-400">
+      <div class="container">
+        <div class="flex flex-wrap">
+          <div class="w-full px-4 mb-10 lg:w-1/2">
+            <h2 class="font-bold uppercase text-lg mb-2">Tentang Saya</h2>
+            <p class="font-normal text-base text-slate-600">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos
+              obcaecati eligendi ex asperiores molestiae ipsa, nobis veritatis
+              earum suscipit maxime harum totam laborum. Et voluptates
+              aspernatur delectus recusandae quos harum animi, sapiente
+              molestiae facere officiis explicabo aut. Sed quam fugit
+              perspiciatis nulla.
+            </p>
+          </div>
+          <div class="w-full px-4 mb-10 lg:w-1/2">
+            <h3 class="font-bold uppercase text-base mb-2">Sosial Media</h3>
+            <p class="font-normal text-base text-slate-600">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia
+              architecto pariatur illum aut nemo aliquid porro.
+            </p>
+            <div class="flex flex-wrap mt-3 items-center">
+              <a href="https://github.com/helmi0111" target="_blank">
+                <svg
+                  width="30px"
+                  role="img"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <title>GitHub</title>
+                  <path
+                    d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"
+                  />
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--About Section End-->
+    <!--Contact Section-->
+    <section id="contact" class="pt-12 pb-12">
+      <div class="container">
+        <div class="w-full px-4">
+          <div class="max-w-xl mx-auto text-center mb-16">
+            <h2 class="font-semibold text-lg text-red-400">Contact</h2>
+            <p class="font-medium text-base text-slate-600">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam ab
+              aperiam unde?
+            </p>
+          </div>
+        </div>
+        <form>
+          <div class="w-full px-4 mb-4">
+            <label for="name" class="text-base font-semibold text-red-400"
+              >Nama</label
+            >
+            <input
+              type="text"
+              id="name"
+              class="w-full bg-slate-100 text-slate-600 p-2 rounded-md mt-1 focus:outline-none"
+            />
+          </div>
+          <div class="w-full px-4 mb-4">
+            <label for="email" class="text-base font-semibold text-red-400"
+              >E-mail</label
+            >
+            <input
+              type="text"
+              id="email"
+              class="w-full bg-slate-100 text-slate-600 p-2 rounded-md mt-1 focus:outline-none"
+            />
+          </div>
+          <div class="w-full px-4 mb-4">
+            <label for="message" class="text-base font-semibold text-red-400"
+              >Pesan</label
+            >
+            <textarea
+              type="text"
+              id="message"
+              class="w-full bg-slate-100 text-slate-600 p-2 rounded-md mt-1 focus:outline-none h-24"
+            ></textarea>
+          </div>
+          <div class="w-full px-4">
+            <button
+              class="text-base font-semibold text-white bg-red-400 py-2 px-5 rounded-full hover:opacity-75"
+            >
+              Kirim
+            </button>
+          </div>
+        </form>
+      </div>
+    </section>
+    <!--Contact Section End-->
+  </body>
+</html>
